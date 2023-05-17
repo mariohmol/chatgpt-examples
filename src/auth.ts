@@ -9,6 +9,5 @@ export async function getConnection() {
 
     console.log('getConnection: Returning connection');
     const response = await openai.listEngines();
-    
     return openai;
 }
