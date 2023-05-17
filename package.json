@@ -1,0 +1,31 @@
+{
+  "name": "chatgpt-examples",
+  "version": "1.0.0",
+  "description": "How to use the differents endpoint for ChatGPT Api",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "npm run build && node build/index.js",
+    "dev": "npx nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariohmol/chatgpt-examples.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariohmol/chatgpt-examples/issues"
+  },
+  "homepage": "https://github.com/mariohmol/chatgpt-examples#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "openai": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.1.7",
+    "nodemon": "^2.0.22",
+    "rimraf": "^5.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
