@@ -8,6 +8,11 @@ export async function getConnection() {
     const openai = new OpenAIApi(configuration);
 
     console.log('getConnection: Returning connection');
-    const response = await openai.listEngines();
+   
     return openai;
+}
+
+export async function listEngines(openai: any) {
+    const response = await openai.listEngines();
+    return response.data.data;
 }
