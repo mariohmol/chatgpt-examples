@@ -5,7 +5,9 @@
   "main": "src/index.ts",
   "scripts": {
     "start": "npm run build && node build/index.js",
-    "dev": "npx nodemon"
+    "build": "npx ts-node ./src/index.ts",
+    "dev": "npx nodemon",
+    "jn": "jupyter notebook"
   },
   "repository": {
     "type": "git",
